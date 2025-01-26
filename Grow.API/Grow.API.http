@@ -1,0 +1,6 @@
+@Grow.API_HostAddress = http://localhost:5095
+
+GET {{Grow.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
