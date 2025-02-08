@@ -7,25 +7,58 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grow.Data", "Grow.Data\Grow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grow.API", "Grow.API\Grow.API.csproj", "{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Grow.UI", "Grow.UI\", "{228994E4-67B2-4ED0-9140-222867749CED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63966"
+		Debug.AspNetCompiler.PhysicalPath = "Grow.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63966\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63966"
+		Release.AspNetCompiler.PhysicalPath = "Grow.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63966\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63966"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		develop|Any CPU = develop|Any CPU
 		live|Any CPU = live|Any CPU
 		staging|Any CPU = staging|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.develop|Any CPU.ActiveCfg = develop|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.develop|Any CPU.Build.0 = develop|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.live|Any CPU.ActiveCfg = live|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.live|Any CPU.Build.0 = live|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.staging|Any CPU.ActiveCfg = staging|Any CPU
 		{5CDA3AF9-3D4A-42AD-9806-6D49E581066E}.staging|Any CPU.Build.0 = staging|Any CPU
+		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.develop|Any CPU.ActiveCfg = develop|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.develop|Any CPU.Build.0 = develop|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.live|Any CPU.ActiveCfg = live|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.live|Any CPU.Build.0 = live|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.staging|Any CPU.ActiveCfg = staging|Any CPU
 		{763180B9-0B21-4A28-B04F-6EE3BE9C64BF}.staging|Any CPU.Build.0 = staging|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.develop|Any CPU.ActiveCfg = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.develop|Any CPU.Build.0 = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.live|Any CPU.ActiveCfg = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.live|Any CPU.Build.0 = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.staging|Any CPU.ActiveCfg = Debug|Any CPU
+		{228994E4-67B2-4ED0-9140-222867749CED}.staging|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
